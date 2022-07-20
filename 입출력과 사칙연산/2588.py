@@ -1,0 +1,10 @@
+a = int(input());
+b = int(input());
+three = a * (b%10);
+four = a * (b%100 - b%10);
+five = a * (b - b%100);
+final = three + four + five;
+print(three);
+print(four//10);
+print(five//100);
+print(final);
